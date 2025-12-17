@@ -1,1 +1,1 @@
-GEMINI_API_KEY ="AIzaSyDYgAETKP9afIJNY_Nv85XD2oVaNIhn_vM"
+GEMINI_API_KEY ="your_api_key"
