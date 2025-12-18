@@ -1,10 +1,16 @@
 from flask import Flask, render_template, request, jsonify
 import google.generativeai as genai
-from config import GEMINI_API_KEY
+import os
 
 app = Flask(__name__)
 
-# ✅ Configure Gemini API key
+# ✅ Read API key from environment variable
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not GEMINI_API_KEY:
+    raise RuntimeError("GEMINI_API_KEY is missing")
+
+# ✅ Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Store chat history
