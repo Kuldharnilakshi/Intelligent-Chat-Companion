@@ -32,6 +32,7 @@ Open: **https://intelligent-chat-companion-1.onrender.com**
 ## 👤 Author
 
 **Nilakshi**
+
 Software Engineering Student
 | Full Stack | AI |
 
