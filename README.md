@@ -25,7 +25,7 @@ An AI-powered chatbot built using **Flask** and **Google Gemini API**, featuring
 
 
 
-Open: **https://intelligent-chat-companion-1.onrender.com**
+Open: **https://intelligent-chat-companion-2.onrender.com/**
 
 ---
 
